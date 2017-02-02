@@ -24,6 +24,7 @@
 		84BF47C01E249BC600FB0EC0 /* MMMeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47BF1E249BC600FB0EC0 /* MMMeController.swift */; };
 		84C6EA121E42F86700E6A4A2 /* MMADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6EA111E42F86700E6A4A2 /* MMADViewController.swift */; };
 		84C6EA141E42F87300E6A4A2 /* MMADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6EA131E42F87300E6A4A2 /* MMADViewController.xib */; };
+		84C6EA161E436DF400E6A4A2 /* MMADItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6EA151E436DF400E6A4A2 /* MMADItem.swift */; };
 		84EB30281E253BDA00E85CDF /* MMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB30271E253BDA00E85CDF /* MMTabBarController.swift */; };
 		CB3199710BC82DDBABF01C04 /* Pods_BuDeJie_Swift3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162F93F89456B1EEB32F74E5 /* Pods_BuDeJie_Swift3.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		84BF47BF1E249BC600FB0EC0 /* MMMeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMMeController.swift; sourceTree = "<group>"; };
 		84C6EA111E42F86700E6A4A2 /* MMADViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMADViewController.swift; sourceTree = "<group>"; };
 		84C6EA131E42F87300E6A4A2 /* MMADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMADViewController.xib; sourceTree = "<group>"; };
+		84C6EA151E436DF400E6A4A2 /* MMADItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMADItem.swift; sourceTree = "<group>"; };
 		84EB30271E253BDA00E85CDF /* MMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMTabBarController.swift; sourceTree = "<group>"; };
 		C1AB2628BEBA4190DC8DF004 /* Pods-BuDeJie_Swift3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie_Swift3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJie_Swift3/Pods-BuDeJie_Swift3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -365,6 +367,7 @@
 		84C6EA0F1E42536100E6A4A2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84C6EA151E436DF400E6A4A2 /* MMADItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -543,6 +546,7 @@
 				84BF47B31E249A4E00FB0EC0 /* AppDelegate.swift in Sources */,
 				84BF47BC1E249B4800FB0EC0 /* MMNewController.swift in Sources */,
 				84C6EA121E42F86700E6A4A2 /* MMADViewController.swift in Sources */,
+				84C6EA161E436DF400E6A4A2 /* MMADItem.swift in Sources */,
 				84BF47B41E249A4E00FB0EC0 /* ViewController.swift in Sources */,
 				841A95F51E2B67730003361A /* UIBarButtonItem+Extension.swift in Sources */,
 				84BF47BE1E249B5500FB0EC0 /* MMPublishController.swift in Sources */,
