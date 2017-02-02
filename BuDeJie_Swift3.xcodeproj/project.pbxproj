@@ -10,14 +10,21 @@
 		8414D65C1E1EAF0900EE74A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8414D65A1E1EAF0900EE74A7 /* Main.storyboard */; };
 		8414D65E1E1EAF0900EE74A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8414D65D1E1EAF0900EE74A7 /* Assets.xcassets */; };
 		8414D6611E1EAF0900EE74A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8414D65F1E1EAF0900EE74A7 /* LaunchScreen.storyboard */; };
+		841A95F51E2B67730003361A /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A95F41E2B67730003361A /* UIBarButtonItem+Extension.swift */; };
+		841A95F81E2D1AA00003361A /* MMTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A95F71E2D1AA00003361A /* MMTabBar.swift */; };
+		841A95FC1E2E2C860003361A /* MMNavigatioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A95FB1E2E2C860003361A /* MMNavigatioController.swift */; };
+		841A96021E2E5FD10003361A /* MMSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A96011E2E5FD10003361A /* MMSettingsController.swift */; };
 		84BF47971E22A8FE00FB0EC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84BF47991E22A8FE00FB0EC0 /* InfoPlist.strings */; };
 		84BF47B31E249A4E00FB0EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47AD1E249A4E00FB0EC0 /* AppDelegate.swift */; };
 		84BF47B41E249A4E00FB0EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47AE1E249A4E00FB0EC0 /* ViewController.swift */; };
-		84BF47B61E249B1900FB0EC0 /* MMEssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47B51E249B1900FB0EC0 /* MMEssenceViewController.swift */; };
-		84BF47B81E249B3400FB0EC0 /* MMFriendTrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47B71E249B3400FB0EC0 /* MMFriendTrendViewController.swift */; };
-		84BF47BC1E249B4800FB0EC0 /* MMNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47BB1E249B4800FB0EC0 /* MMNewViewController.swift */; };
-		84BF47BE1E249B5500FB0EC0 /* MMPublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47BD1E249B5500FB0EC0 /* MMPublishViewController.swift */; };
-		84BF47C01E249BC600FB0EC0 /* MMMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47BF1E249BC600FB0EC0 /* MMMeViewController.swift */; };
+		84BF47B61E249B1900FB0EC0 /* MMEssenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47B51E249B1900FB0EC0 /* MMEssenceController.swift */; };
+		84BF47B81E249B3400FB0EC0 /* MMFriendTrendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47B71E249B3400FB0EC0 /* MMFriendTrendController.swift */; };
+		84BF47BC1E249B4800FB0EC0 /* MMNewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47BB1E249B4800FB0EC0 /* MMNewController.swift */; };
+		84BF47BE1E249B5500FB0EC0 /* MMPublishController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47BD1E249B5500FB0EC0 /* MMPublishController.swift */; };
+		84BF47C01E249BC600FB0EC0 /* MMMeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47BF1E249BC600FB0EC0 /* MMMeController.swift */; };
+		84C6EA121E42F86700E6A4A2 /* MMADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6EA111E42F86700E6A4A2 /* MMADViewController.swift */; };
+		84C6EA141E42F87300E6A4A2 /* MMADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6EA131E42F87300E6A4A2 /* MMADViewController.xib */; };
+		84EB30281E253BDA00E85CDF /* MMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB30271E253BDA00E85CDF /* MMTabBarController.swift */; };
 		CB3199710BC82DDBABF01C04 /* Pods_BuDeJie_Swift3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162F93F89456B1EEB32F74E5 /* Pods_BuDeJie_Swift3.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,17 +36,24 @@
 		8414D65D1E1EAF0900EE74A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8414D6601E1EAF0900EE74A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8414D6621E1EAF0900EE74A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841A95F41E2B67730003361A /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+Extension.swift"; path = "Extension/UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		841A95F71E2D1AA00003361A /* MMTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMTabBar.swift; sourceTree = "<group>"; };
+		841A95FB1E2E2C860003361A /* MMNavigatioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MMNavigatioController.swift; path = ../View/MMNavigatioController.swift; sourceTree = "<group>"; };
+		841A96011E2E5FD10003361A /* MMSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSettingsController.swift; sourceTree = "<group>"; };
 		84BF47951E22A86C00FB0EC0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		84BF47961E22A86C00FB0EC0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		84BF47981E22A8FE00FB0EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84BF479A1E22A90300FB0EC0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		84BF47AD1E249A4E00FB0EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BF47AE1E249A4E00FB0EC0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84BF47B51E249B1900FB0EC0 /* MMEssenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMEssenceViewController.swift; sourceTree = "<group>"; };
-		84BF47B71E249B3400FB0EC0 /* MMFriendTrendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMFriendTrendViewController.swift; sourceTree = "<group>"; };
-		84BF47BB1E249B4800FB0EC0 /* MMNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMNewViewController.swift; sourceTree = "<group>"; };
-		84BF47BD1E249B5500FB0EC0 /* MMPublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPublishViewController.swift; sourceTree = "<group>"; };
-		84BF47BF1E249BC600FB0EC0 /* MMMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMMeViewController.swift; sourceTree = "<group>"; };
+		84BF47B51E249B1900FB0EC0 /* MMEssenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMEssenceController.swift; sourceTree = "<group>"; };
+		84BF47B71E249B3400FB0EC0 /* MMFriendTrendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMFriendTrendController.swift; sourceTree = "<group>"; };
+		84BF47BB1E249B4800FB0EC0 /* MMNewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMNewController.swift; sourceTree = "<group>"; };
+		84BF47BD1E249B5500FB0EC0 /* MMPublishController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMPublishController.swift; sourceTree = "<group>"; };
+		84BF47BF1E249BC600FB0EC0 /* MMMeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMMeController.swift; sourceTree = "<group>"; };
+		84C6EA111E42F86700E6A4A2 /* MMADViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMADViewController.swift; sourceTree = "<group>"; };
+		84C6EA131E42F87300E6A4A2 /* MMADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMADViewController.xib; sourceTree = "<group>"; };
+		84EB30271E253BDA00E85CDF /* MMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMTabBarController.swift; sourceTree = "<group>"; };
 		C1AB2628BEBA4190DC8DF004 /* Pods-BuDeJie_Swift3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie_Swift3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJie_Swift3/Pods-BuDeJie_Swift3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,15 +117,58 @@
 			path = BuDeJie_Swift3;
 			sourceTree = "<group>";
 		};
+		841A95F61E2B67BE0003361A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				841A95F41E2B67730003361A /* UIBarButtonItem+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		841A95FD1E2E5FA80003361A /* Settings(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				841A95FE1E2E5FA80003361A /* Controller */,
+				841A95FF1E2E5FA80003361A /* Model */,
+				841A96001E2E5FA80003361A /* View */,
+			);
+			path = "Settings(设置)";
+			sourceTree = "<group>";
+		};
+		841A95FE1E2E5FA80003361A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				841A96011E2E5FD10003361A /* MMSettingsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		841A95FF1E2E5FA80003361A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		841A96001E2E5FA80003361A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		84BF479B1E249A4E00FB0EC0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				84C6EA0D1E42536100E6A4A2 /* AD(广告) */,
+				84EB30231E253BB600E85CDF /* Main(主要) */,
 				84BF479C1E249A4E00FB0EC0 /* Essence(精华) */,
+				84BF47A81E249A4E00FB0EC0 /* New(新帖) */,
+				84BF47AF1E249A4E00FB0EC0 /* Publish(发布) */,
 				84BF47A01E249A4E00FB0EC0 /* FriendTrend(关注) */,
 				84BF47A41E249A4E00FB0EC0 /* Me(我) */,
-				84BF47A81E249A4E00FB0EC0 /* New(新帖) */,
+				841A95FD1E2E5FA80003361A /* Settings(设置) */,
 				84BF47AC1E249A4E00FB0EC0 /* Other */,
-				84BF47AF1E249A4E00FB0EC0 /* Publish(发布) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -129,7 +186,7 @@
 		84BF479D1E249A4E00FB0EC0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				84BF47B51E249B1900FB0EC0 /* MMEssenceViewController.swift */,
+				84BF47B51E249B1900FB0EC0 /* MMEssenceController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,7 +218,7 @@
 		84BF47A11E249A4E00FB0EC0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				84BF47B71E249B3400FB0EC0 /* MMFriendTrendViewController.swift */,
+				84BF47B71E249B3400FB0EC0 /* MMFriendTrendController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,7 +250,7 @@
 		84BF47A51E249A4E00FB0EC0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				84BF47BF1E249BC600FB0EC0 /* MMMeViewController.swift */,
+				84BF47BF1E249BC600FB0EC0 /* MMMeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -225,7 +282,7 @@
 		84BF47A91E249A4E00FB0EC0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				84BF47BB1E249B4800FB0EC0 /* MMNewViewController.swift */,
+				84BF47BB1E249B4800FB0EC0 /* MMNewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -247,6 +304,7 @@
 		84BF47AC1E249A4E00FB0EC0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				841A95F61E2B67BE0003361A /* Extension */,
 				84BF47AD1E249A4E00FB0EC0 /* AppDelegate.swift */,
 				84BF47AE1E249A4E00FB0EC0 /* ViewController.swift */,
 			);
@@ -266,7 +324,7 @@
 		84BF47B01E249A4E00FB0EC0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				84BF47BD1E249B5500FB0EC0 /* MMPublishViewController.swift */,
+				84BF47BD1E249B5500FB0EC0 /* MMPublishController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,6 +339,73 @@
 		84BF47B21E249A4E00FB0EC0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C6EA0D1E42536100E6A4A2 /* AD(广告) */ = {
+			isa = PBXGroup;
+			children = (
+				84C6EA0E1E42536100E6A4A2 /* Controller */,
+				84C6EA0F1E42536100E6A4A2 /* Model */,
+				84C6EA101E42536100E6A4A2 /* View */,
+			);
+			path = "AD(广告)";
+			sourceTree = "<group>";
+		};
+		84C6EA0E1E42536100E6A4A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C6EA111E42F86700E6A4A2 /* MMADViewController.swift */,
+				84C6EA131E42F87300E6A4A2 /* MMADViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84C6EA0F1E42536100E6A4A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C6EA101E42536100E6A4A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84EB30231E253BB600E85CDF /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				84EB30241E253BB600E85CDF /* Controller */,
+				84EB30251E253BB600E85CDF /* Model */,
+				84EB30261E253BB600E85CDF /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		84EB30241E253BB600E85CDF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84EB30271E253BDA00E85CDF /* MMTabBarController.swift */,
+				841A95FB1E2E2C860003361A /* MMNavigatioController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84EB30251E253BB600E85CDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84EB30261E253BB600E85CDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				841A95F71E2D1AA00003361A /* MMTabBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -351,6 +476,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8414D6611E1EAF0900EE74A7 /* LaunchScreen.storyboard in Resources */,
+				84C6EA141E42F87300E6A4A2 /* MMADViewController.xib in Resources */,
 				84BF47971E22A8FE00FB0EC0 /* InfoPlist.strings in Resources */,
 				8414D65E1E1EAF0900EE74A7 /* Assets.xcassets in Resources */,
 				8414D65C1E1EAF0900EE74A7 /* Main.storyboard in Resources */,
@@ -412,13 +538,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841A96021E2E5FD10003361A /* MMSettingsController.swift in Sources */,
+				841A95FC1E2E2C860003361A /* MMNavigatioController.swift in Sources */,
 				84BF47B31E249A4E00FB0EC0 /* AppDelegate.swift in Sources */,
-				84BF47BC1E249B4800FB0EC0 /* MMNewViewController.swift in Sources */,
+				84BF47BC1E249B4800FB0EC0 /* MMNewController.swift in Sources */,
+				84C6EA121E42F86700E6A4A2 /* MMADViewController.swift in Sources */,
 				84BF47B41E249A4E00FB0EC0 /* ViewController.swift in Sources */,
-				84BF47BE1E249B5500FB0EC0 /* MMPublishViewController.swift in Sources */,
-				84BF47B81E249B3400FB0EC0 /* MMFriendTrendViewController.swift in Sources */,
-				84BF47C01E249BC600FB0EC0 /* MMMeViewController.swift in Sources */,
-				84BF47B61E249B1900FB0EC0 /* MMEssenceViewController.swift in Sources */,
+				841A95F51E2B67730003361A /* UIBarButtonItem+Extension.swift in Sources */,
+				84BF47BE1E249B5500FB0EC0 /* MMPublishController.swift in Sources */,
+				84BF47B81E249B3400FB0EC0 /* MMFriendTrendController.swift in Sources */,
+				84EB30281E253BDA00E85CDF /* MMTabBarController.swift in Sources */,
+				841A95F81E2D1AA00003361A /* MMTabBar.swift in Sources */,
+				84BF47C01E249BC600FB0EC0 /* MMMeController.swift in Sources */,
+				84BF47B61E249B1900FB0EC0 /* MMEssenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
