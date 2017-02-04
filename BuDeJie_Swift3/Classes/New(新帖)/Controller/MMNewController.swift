@@ -21,13 +21,14 @@ class MMNewController: UIViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem(
             normal: "MainTagSubIcon",
             highlighted: "MainTagSubIconClick",
-            addTarget: self, action: #selector(leftButtonClick))
+            addTarget: self, action: #selector(subscriberButtonClick))
         
         navigationItem.titleView = UIImageView(image: UIImage(named: "MainTitle"))
     }
     
-    func leftButtonClick() {
-        print(#function)
+    func subscriberButtonClick() {
+        let subscriberTableVC = MMSubscriberTableViewController()
+        navigationController?.pushViewController(subscriberTableVC, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

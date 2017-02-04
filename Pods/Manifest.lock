@@ -18,17 +18,23 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.0.3)
+  - UIColor_Hex_Swift (3.0.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - MJExtension (~> 3.0.13)
   - SDWebImage (~> 3.8.2)
+  - SVProgressHUD (~> 2.0.3)
+  - UIColor_Hex_Swift (~> 3.0.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
 
-PODFILE CHECKSUM: cb318959512cf08f48f35b8e55213f820bd5d1fc
+PODFILE CHECKSUM: f141dc23eb22f14535a6e43354d05e6fd20c38ca
 
 COCOAPODS: 1.1.1

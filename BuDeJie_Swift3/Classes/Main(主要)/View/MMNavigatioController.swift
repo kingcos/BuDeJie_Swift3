@@ -35,6 +35,7 @@ class MMNavigatioController: UINavigationController, UIGestureRecognizerDelegate
     
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         if childViewControllers.count > 0 {
+            viewController.hidesBottomBarWhenPushed = true
             viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(normal: "navigationButtonReturn", highlighted: "navigationButtonReturnClick", addTarget: self, action: #selector(backButtonClick), title: "返回")
         }
         
