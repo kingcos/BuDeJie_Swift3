@@ -10,10 +10,14 @@ import UIKit
 
 class MMFriendTrendController: UIViewController {
 
+    @IBAction func clickLoginButton(_ sender: Any) {
+        let loginVC = MMLoginViewController()
+        present(loginVC, animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = .blue
+        
         setupNavBar()
     }
     

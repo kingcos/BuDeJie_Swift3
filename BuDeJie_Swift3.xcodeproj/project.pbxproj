@@ -14,6 +14,8 @@
 		841A95F81E2D1AA00003361A /* MMTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A95F71E2D1AA00003361A /* MMTabBar.swift */; };
 		841A95FC1E2E2C860003361A /* MMNavigatioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A95FB1E2E2C860003361A /* MMNavigatioController.swift */; };
 		841A96021E2E5FD10003361A /* MMSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A96011E2E5FD10003361A /* MMSettingsController.swift */; };
+		84341F8C1E56FE0200A4DF37 /* MMLoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84341F8B1E56FE0200A4DF37 /* MMLoginTextField.swift */; };
+		84341F8E1E586A9700A4DF37 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84341F8D1E586A9700A4DF37 /* UITextField+Extension.swift */; };
 		84BF47971E22A8FE00FB0EC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84BF47991E22A8FE00FB0EC0 /* InfoPlist.strings */; };
 		84BF47B31E249A4E00FB0EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47AD1E249A4E00FB0EC0 /* AppDelegate.swift */; };
 		84BF47B41E249A4E00FB0EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF47AE1E249A4E00FB0EC0 /* ViewController.swift */; };
@@ -29,6 +31,14 @@
 		84C6EA1E1E43B67300E6A4A2 /* MMSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6EA1D1E43B67300E6A4A2 /* MMSubscriber.swift */; };
 		84C6EA211E44326E00E6A4A2 /* MMSubscriberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6EA1F1E44326E00E6A4A2 /* MMSubscriberTableViewCell.swift */; };
 		84C6EA221E44326E00E6A4A2 /* MMSubscriberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6EA201E44326E00E6A4A2 /* MMSubscriberTableViewCell.xib */; };
+		84C6EAA31E45AAB300E6A4A2 /* MMFriendTrendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6EAA21E45AAB300E6A4A2 /* MMFriendTrendController.xib */; };
+		84C6EAA61E45B11C00E6A4A2 /* MMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6EAA41E45B11C00E6A4A2 /* MMLoginViewController.swift */; };
+		84C6EAA71E45B11C00E6A4A2 /* MMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6EAA51E45B11C00E6A4A2 /* MMLoginViewController.xib */; };
+		84C6EAA91E45BBDD00E6A4A2 /* MMLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6EAA81E45BBDD00E6A4A2 /* MMLoginView.swift */; };
+		84C6EAAB1E45BBE300E6A4A2 /* MMLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6EAAA1E45BBE300E6A4A2 /* MMLoginView.xib */; };
+		84C6EAAD1E4630BE00E6A4A2 /* MMConvenientLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6EAAC1E4630BE00E6A4A2 /* MMConvenientLoginView.swift */; };
+		84C6EAAF1E4630C600E6A4A2 /* MMConvenientLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6EAAE1E4630C600E6A4A2 /* MMConvenientLoginView.xib */; };
+		84C6EAB11E46392900E6A4A2 /* MMConvenientLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6EAB01E46392900E6A4A2 /* MMConvenientLoginButton.swift */; };
 		84EB30281E253BDA00E85CDF /* MMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB30271E253BDA00E85CDF /* MMTabBarController.swift */; };
 		CB3199710BC82DDBABF01C04 /* Pods_BuDeJie_Swift3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162F93F89456B1EEB32F74E5 /* Pods_BuDeJie_Swift3.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +55,8 @@
 		841A95F71E2D1AA00003361A /* MMTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMTabBar.swift; sourceTree = "<group>"; };
 		841A95FB1E2E2C860003361A /* MMNavigatioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MMNavigatioController.swift; path = ../View/MMNavigatioController.swift; sourceTree = "<group>"; };
 		841A96011E2E5FD10003361A /* MMSettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSettingsController.swift; sourceTree = "<group>"; };
+		84341F8B1E56FE0200A4DF37 /* MMLoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMLoginTextField.swift; sourceTree = "<group>"; };
+		84341F8D1E586A9700A4DF37 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		84BF47951E22A86C00FB0EC0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		84BF47961E22A86C00FB0EC0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		84BF47981E22A8FE00FB0EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -63,6 +75,14 @@
 		84C6EA1D1E43B67300E6A4A2 /* MMSubscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSubscriber.swift; sourceTree = "<group>"; };
 		84C6EA1F1E44326E00E6A4A2 /* MMSubscriberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMSubscriberTableViewCell.swift; sourceTree = "<group>"; };
 		84C6EA201E44326E00E6A4A2 /* MMSubscriberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMSubscriberTableViewCell.xib; sourceTree = "<group>"; };
+		84C6EAA21E45AAB300E6A4A2 /* MMFriendTrendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMFriendTrendController.xib; sourceTree = "<group>"; };
+		84C6EAA41E45B11C00E6A4A2 /* MMLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMLoginViewController.swift; sourceTree = "<group>"; };
+		84C6EAA51E45B11C00E6A4A2 /* MMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMLoginViewController.xib; sourceTree = "<group>"; };
+		84C6EAA81E45BBDD00E6A4A2 /* MMLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMLoginView.swift; sourceTree = "<group>"; };
+		84C6EAAA1E45BBE300E6A4A2 /* MMLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMLoginView.xib; sourceTree = "<group>"; };
+		84C6EAAC1E4630BE00E6A4A2 /* MMConvenientLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMConvenientLoginView.swift; sourceTree = "<group>"; };
+		84C6EAAE1E4630C600E6A4A2 /* MMConvenientLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMConvenientLoginView.xib; sourceTree = "<group>"; };
+		84C6EAB01E46392900E6A4A2 /* MMConvenientLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMConvenientLoginButton.swift; sourceTree = "<group>"; };
 		84EB30271E253BDA00E85CDF /* MMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMTabBarController.swift; sourceTree = "<group>"; };
 		C1AB2628BEBA4190DC8DF004 /* Pods-BuDeJie_Swift3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie_Swift3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuDeJie_Swift3/Pods-BuDeJie_Swift3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				841A95F41E2B67730003361A /* UIBarButtonItem+Extension.swift */,
+				84341F8D1E586A9700A4DF37 /* UITextField+Extension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -229,6 +250,9 @@
 			isa = PBXGroup;
 			children = (
 				84BF47B71E249B3400FB0EC0 /* MMFriendTrendController.swift */,
+				84C6EAA21E45AAB300E6A4A2 /* MMFriendTrendController.xib */,
+				84C6EAA41E45B11C00E6A4A2 /* MMLoginViewController.swift */,
+				84C6EAA51E45B11C00E6A4A2 /* MMLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,6 +267,12 @@
 		84BF47A31E249A4E00FB0EC0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84C6EAA81E45BBDD00E6A4A2 /* MMLoginView.swift */,
+				84C6EAAA1E45BBE300E6A4A2 /* MMLoginView.xib */,
+				84C6EAAC1E4630BE00E6A4A2 /* MMConvenientLoginView.swift */,
+				84C6EAAE1E4630C600E6A4A2 /* MMConvenientLoginView.xib */,
+				84C6EAB01E46392900E6A4A2 /* MMConvenientLoginButton.swift */,
+				84341F8B1E56FE0200A4DF37 /* MMLoginTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -492,9 +522,13 @@
 			files = (
 				8414D6611E1EAF0900EE74A7 /* LaunchScreen.storyboard in Resources */,
 				84C6EA141E42F87300E6A4A2 /* MMADViewController.xib in Resources */,
+				84C6EAAF1E4630C600E6A4A2 /* MMConvenientLoginView.xib in Resources */,
 				84BF47971E22A8FE00FB0EC0 /* InfoPlist.strings in Resources */,
 				84C6EA221E44326E00E6A4A2 /* MMSubscriberTableViewCell.xib in Resources */,
+				84C6EAA71E45B11C00E6A4A2 /* MMLoginViewController.xib in Resources */,
 				8414D65E1E1EAF0900EE74A7 /* Assets.xcassets in Resources */,
+				84C6EAAB1E45BBE300E6A4A2 /* MMLoginView.xib in Resources */,
+				84C6EAA31E45AAB300E6A4A2 /* MMFriendTrendController.xib in Resources */,
 				8414D65C1E1EAF0900EE74A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,15 +596,21 @@
 				84C6EA211E44326E00E6A4A2 /* MMSubscriberTableViewCell.swift in Sources */,
 				84C6EA121E42F86700E6A4A2 /* MMADViewController.swift in Sources */,
 				84C6EA161E436DF400E6A4A2 /* MMADItem.swift in Sources */,
+				84C6EAA91E45BBDD00E6A4A2 /* MMLoginView.swift in Sources */,
 				84BF47B41E249A4E00FB0EC0 /* ViewController.swift in Sources */,
 				841A95F51E2B67730003361A /* UIBarButtonItem+Extension.swift in Sources */,
 				84BF47BE1E249B5500FB0EC0 /* MMPublishController.swift in Sources */,
 				84BF47B81E249B3400FB0EC0 /* MMFriendTrendController.swift in Sources */,
+				84C6EAB11E46392900E6A4A2 /* MMConvenientLoginButton.swift in Sources */,
 				84C6EA1E1E43B67300E6A4A2 /* MMSubscriber.swift in Sources */,
 				84EB30281E253BDA00E85CDF /* MMTabBarController.swift in Sources */,
 				841A95F81E2D1AA00003361A /* MMTabBar.swift in Sources */,
 				84BF47C01E249BC600FB0EC0 /* MMMeController.swift in Sources */,
+				84C6EAA61E45B11C00E6A4A2 /* MMLoginViewController.swift in Sources */,
+				84341F8E1E586A9700A4DF37 /* UITextField+Extension.swift in Sources */,
+				84C6EAAD1E4630BE00E6A4A2 /* MMConvenientLoginView.swift in Sources */,
 				84BF47B61E249B1900FB0EC0 /* MMEssenceController.swift in Sources */,
+				84341F8C1E56FE0200A4DF37 /* MMLoginTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

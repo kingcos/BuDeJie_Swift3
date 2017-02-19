@@ -68,14 +68,21 @@ class MMADViewController: UIViewController {
                     progress: nil,
                     success: { (task, responseObject) in
                         
-                        if let responseObject = responseObject as? [String : Any] {
-                            if let responseObject = responseObject["ad"] as? [Any] {
-                                self.adItem = MMADItem.mj_object(withKeyValues: responseObject.last)!
-                                let height = UIScreen.main.bounds.width / (self.adItem?.w)! * (self.adItem?.h)!
-                                
-                                self.adImageView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: height)
-                                self.adImageView.sd_setImage(with: URL(string: (self.adItem?.w_picurl)!))
-                            }
+                        guard let responseObject = responseObject as? [String : Any] else {
+                            return
+                        }
+                        
+                        guard let response = responseObject["ad"] as? [Any] else {
+                            return
+                        }
+                        
+                        if let item = MMADItem.mj_object(withKeyValues: response.last) {
+                            self.adItem = item
+                            
+                            let height = UIScreen.main.bounds.width / (self.adItem?.w)! * (self.adItem?.h)!
+                            
+                            self.adImageView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: height)
+                            self.adImageView.sd_setImage(with: URL(string: (self.adItem?.w_picurl)!))
                         }
                         
         },
